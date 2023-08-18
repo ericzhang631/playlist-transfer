@@ -21,7 +21,7 @@ function SpotifyLogin()
     {
         var url = "https://accounts.spotify.com/authorize";
         const clientID = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
-        const redirectURI = "http://localhost:3000/";
+        const redirectURI = "https://playlist-transfer.netlify.app/";
         const scope = "playlist-read-private";
         const state = generateRandomString(16);
         url += '?response_type=token';
