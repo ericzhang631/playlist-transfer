@@ -1,8 +1,8 @@
 # Playlist Transfer Web App
 
-This is a static React web app that allows users to seamlessly transfer their Spotify playlists to YouTube. The app provides an interface for logging in to Spotify and Google, fetching playlists, selecting playlists to transfer, and initiating the transfer process.
+React web app that allows users to seamlessly transfer their Spotify playlists to YouTube. The app provides an interface for logging in to Spotify and Google, fetching playlists, selecting playlists to transfer, and initiating the transfer process.
 
-This webapp is currently deployed by Netlify at https://playlist-transfer.netlify.app/
+The website is currently deployed by Netlify at https://playlist-transfer.netlify.app/
 
 This project is currently in development mode, so it has some limitations like quota restrictions for YouTube, and only allows whitelisted users for Spotify.
 
@@ -16,4 +16,4 @@ This project is currently in development mode, so it has some limitations like q
 
 - **Select Playlists:** Users can select specific Spotify playlists they wish to transfer to YouTube.
 
-- **Transfer to YouTube:** The app initiates the transfer of selected Spotify playlists to YouTube. Please note that due to quota limitations, the app can currently only transfer up to 100 songs per playlist. This limitation will be removed once a quota increase is approved.
+- **Transfer to YouTube:** The app initiates the transfer of selected Spotify playlists to YouTube. Please note that due to quota limitations, the app can currently only transfer up to 100 songs per playlist. Limits will be removed once a quota increase is approved.
